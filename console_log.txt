@@ -1,0 +1,386 @@
+
+ Info  Plugin  Mod  API 
+ Vanilla Server Log
+#1XdvI2e
+ 2 errors  376 lines  Raw
+[07:50:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Linux 6.8.0-79-generic (amd64)
+[07:50:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[07:50:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:50:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GeyserExtras-Spigot.jar'...
+[07:50:26] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Origins-Monsters-1.2.3.jar'...
+[07:50:27] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Origins-Reborn-2.10.9-all.jar'...
+[07:50:27] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Origins-Fantasy-1.1.14.jar'...
+[07:50:28] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Origins-Fantasy-1.1.14.jar' in 1184ms.
+[07:50:28] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/LaggRemoverPlus.jar'...
+[07:50:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Origins-Monsters-1.2.3.jar' in 1613ms.
+[07:50:28] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/Origins-Mobs-1.0.41-all.jar'...
+[07:50:29] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LaggRemoverPlus.jar' in 588ms.
+[07:50:29] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/GeyserSkinManager-Spigot.jar'...
+[07:50:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Origins-Mobs-1.0.41-all.jar' in 990ms.
+[07:50:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/LaggRemover-2.0.6.jar'...
+[07:50:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LaggRemover-2.0.6.jar' in 387ms.
+[07:50:29] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/TreeFeller-1.26.2.jar'...
+[07:50:31] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TreeFeller-1.26.2.jar' in 1813ms.
+[07:50:31] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[07:50:34] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GeyserSkinManager-Spigot.jar' in 5013ms.
+[07:50:34] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Clearlag.jar'...
+[07:50:34] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Clearlag.jar' in 419ms.
+[07:50:34] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/floodgate-spigot.jar'...
+[07:50:35] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Origins-Reborn-2.10.9-all.jar' in 8354ms.
+[07:50:35] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.7.jar'...
+[07:50:37] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.7.jar' in 1445ms.
+[07:50:38] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GeyserExtras-Spigot.jar' in 12071ms.
+[07:50:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 7099ms.
+[07:50:40] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/floodgate-spigot.jar' in 5818ms.
+[07:50:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 18 plugins
+[07:50:41] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - Veinminer (2.5.1)
+[07:50:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+ - ClearLag (3.2.2), Geyser-Spigot (2.9.1-SNAPSHOT), GeyserExtras (2.0.0), GeyserSkinManager (1.8), LaggRemover (2.0.6), LaggRemoverPlus (1.0), LuckPerms (5.5.0), Origins-Fantasy (1.1.14), Origins-Mobs (1.0.41), Origins-Monsters (1.2.3), Origins-Reborn (2.10.9), PlaceholderAPI (2.11.7), SkinsRestorer (15.9.0), TreeFeller (1.26.2), ViaBackwards (5.5.2-SNAPSHOT), ViaRewind (4.0.12-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b121-55a85ec))
+[07:50:41] [ServerMain/ERROR]: [BootstrapProviderStorage] Failed to run bootstrapper for plugins/veinminer-paper-2.5.1.jar. This plugin will not be loaded.
+java.lang.NoSuchFieldError: Class io.papermc.paper.plugin.lifecycle.event.types.LifecycleEvents does not have member field 'io.papermc.paper.plugin.lifecycle.event.types.LifecycleEventType$Prioritizable DATAPACK_DISCOVERY'
+	at veinminer-paper-2.5.1.jar/de.miraculixx.veinminer.VeinminerBootstrapper.bootstrap(VeinminerBootstrapper.java:18) ~[veinminer-paper-2.5.1.jar:?]
+	at io.papermc.paper.plugin.storage.BootstrapProviderStorage$1.load(BootstrapProviderStorage.java:36) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.storage.BootstrapProviderStorage$1.load(BootstrapProviderStorage.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:117) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enterBootstrappers(LaunchEntryPointHandler.java:30) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:65) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.Main.main(Main.java:124) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:50:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:50:47] [ServerMain/INFO]: Found new data pack file/Datapack_Survivors_Elegy_v1.0.7.zip, loading it automatically
+[07:50:47] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[07:50:47] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[07:50:48] [ServerMain/ERROR]: Registry loading errors:
+> Errors in registry minecraft:enchantment:
+>> Errors in element siscu:mount_catalyst:
+java.lang.IllegalStateException: Failed to parse siscu:enchantment/mount_catalyst.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Unknown element name:saddle
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+> Errors in registry minecraft:root:
+>> Errors in element minecraft:worldgen/biome:
+java.lang.IllegalStateException: Unbound values in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]: [minecraft:crimson_forest, minecraft:nether_wastes]
+	at net.minecraft.core.MappedRegistry.freeze(MappedRegistry.java:339)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$6(RegistryDataLoader.java:143)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:138)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+>> Errors in element minecraft:worldgen/noise_settings:
+java.lang.IllegalStateException: Unbound values in registry ResourceKey[minecraft:root / minecraft:worldgen/noise_settings]: [minecraft:nether]
+	at net.minecraft.core.MappedRegistry.freeze(MappedRegistry.java:339)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$6(RegistryDataLoader.java:143)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:138)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+> Errors in registry minecraft:wolf_variant:
+>> Errors in element siscu:skeleton:
+java.lang.IllegalStateException: Failed to parse siscu:wolf_variant/skeleton.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: No key biomes in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/skeleton","wild":"siscu_se:entity/wolf/skeleton","tame":"siscu_se:entity/wolf/skeleton"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key angry_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/skeleton","wild":"siscu_se:entity/wolf/skeleton","tame":"siscu_se:entity/wolf/skeleton"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key tame_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/skeleton","wild":"siscu_se:entity/wolf/skeleton","tame":"siscu_se:entity/wolf/skeleton"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key wild_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/skeleton","wild":"siscu_se:entity/wolf/skeleton","tame":"siscu_se:entity/wolf/skeleton"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element siscu:withered_skeleton:
+java.lang.IllegalStateException: Failed to parse siscu:wolf_variant/withered_skeleton.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: No key biomes in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/withered","wild":"siscu_se:entity/wolf/withered","tame":"siscu_se:entity/wolf/withered"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key angry_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/withered","wild":"siscu_se:entity/wolf/withered","tame":"siscu_se:entity/wolf/withered"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key tame_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/withered","wild":"siscu_se:entity/wolf/withered","tame":"siscu_se:entity/wolf/withered"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key wild_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/withered","wild":"siscu_se:entity/wolf/withered","tame":"siscu_se:entity/wolf/withered"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element siscu:zombified:
+java.lang.IllegalStateException: Failed to parse siscu:wolf_variant/zombified.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: No key biomes in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/zombified","wild":"siscu_se:entity/wolf/zombified","tame":"siscu_se:entity/wolf/zombified"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key angry_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/zombified","wild":"siscu_se:entity/wolf/zombified","tame":"siscu_se:entity/wolf/zombified"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key tame_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/zombified","wild":"siscu_se:entity/wolf/zombified","tame":"siscu_se:entity/wolf/zombified"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]; No key wild_texture in MapLike[{"assets":{"angry":"siscu_se:entity/wolf/zombified","wild":"siscu_se:entity/wolf/zombified","tame":"siscu_se:entity/wolf/zombified"},"spawn_conditions":[{"condition":{"type":"minecraft:biome","biomes":"#siscu:none"},"priority":1}]}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+> Errors in registry minecraft:worldgen/biome:
+>> Errors in element minecraft:crimson_forest:
+java.lang.IllegalStateException: Failed to parse minecraft:worldgen/biome/crimson_forest.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Not a JSON object: "minecraft:nether_cave"; Not a JSON object: [{"data":{"max_delay":24000,"min_delay":12000,"replace_current_music":false,"sound":"minecraft:music.nether.crimson_forest"},"weight":1}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element siscu:metamorphic_caves:
+java.lang.IllegalStateException: Failed to parse siscu:worldgen/biome/metamorphic_caves.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Not a JSON object: "minecraft:nether_cave"; Not a JSON object: [{"data":{"max_delay":12000,"min_delay":24000,"replace_current_music":false,"sound":"music.nether.nether_wastes"},"weight":1}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element siscu:metamorphic_edges:
+java.lang.IllegalStateException: Failed to parse siscu:worldgen/biome/metamorphic_edges.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Not a JSON object: "minecraft:nether_cave"; Not a JSON object: [{"data":{"max_delay":12000,"min_delay":24000,"replace_current_music":false,"sound":"music.nether.nether_wastes"},"weight":1}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element minecraft:nether_wastes:
+java.lang.IllegalStateException: Failed to parse minecraft:worldgen/biome/nether_wastes.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Not a JSON object: "minecraft:nether_cave"; Not a JSON object: [{"data":{"max_delay":24000,"min_delay":12000,"replace_current_music":false,"sound":"minecraft:music.nether.nether_wastes"},"weight":1}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+>> Errors in element siscu:withered_grounds:
+java.lang.IllegalStateException: Failed to parse siscu:worldgen/biome/withered_grounds.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Not a JSON object: "minecraft:nether_cave"; Not a JSON object: [{"data":{"max_delay":12000,"min_delay":24000,"replace_current_music":false,"sound":"music.nether.soul_sand_valley"},"weight":1}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+> Errors in registry minecraft:worldgen/noise_settings:
+>> Errors in element minecraft:nether:
+java.lang.IllegalStateException: Failed to parse minecraft:worldgen/noise_settings/nether.json from pack file/Datapack_Survivors_Elegy_v1.0.7.zip
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:231)
+	at net.minecraft.resources.RegistryDataLoader$Loader.loadFromResources(RegistryDataLoader.java:282)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$2(RegistryDataLoader.java:118)
+	at net.minecraft.resources.RegistryDataLoader.lambda$load$5(RegistryDataLoader.java:137)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:137)
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118)
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77)
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86)
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36)
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272)
+	at net.minecraft.Util.blockUntilDone(Util.java:892)
+	at net.minecraft.Util.blockUntilDone(Util.java:887)
+	at net.minecraft.server.Main.main(Main.java:271)
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21)
+	at org.bukkit.craftbukkit.Main.main(Main.java:281)
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: No key initial_density_without_jaggedness in MapLike[{"barrier":0.0,"continents":0.0,"depth":0.0,"erosion":0.0,"final_density":{"type":"minecraft:squeeze","argument":{"type":"minecraft:mul","argument1":0.64,"argument2":{"type":"minecraft:interpolated","argument":{"type":"minecraft:blend_density","argument":{"type":"minecraft:add","argument1":2.5,"argument2":{"type":"minecraft:mul","argument1":{"type":"minecraft:y_clamped_gradient","from_value":0.0,"from_y":-8,"to_value":1.0,"to_y":24},"argument2":{"type":"minecraft:add","argument1":-2.5,"argument2":{"type":"minecraft:add","argument1":0.9375,"argument2":{"type":"minecraft:mul","argument1":{"type":"minecraft:y_clamped_gradient","from_value":1.0,"from_y":104,"to_value":0.0,"to_y":128},"argument2":{"type":"minecraft:add","argument1":-0.9375,"argument2":"minecraft:nether/base_3d_noise"}}}}}}}}}},"fluid_level_floodedness":0.0,"fluid_level_spread":0.0,"preliminary_surface_level":0.0,"lava":0.0,"ridges":0.0,"temperature":{"type":"minecraft:shifted_noise","noise":"minecraft:temperature","shift_x":"minecraft:shift_x","shift_y":0.0,"shift_z":"minecraft:shift_z","xz_scale":0.25,"y_scale":0.0},"vegetation":{"type":"minecraft:shifted_noise","noise":"minecraft:vegetation","shift_x":"minecraft:shift_x","shift_y":0.0,"shift_z":"minecraft:shift_z","xz_scale":0.25,"y_scale":0.0},"vein_gap":0.0,"vein_ridged":0.0,"vein_toggle":0.0}]
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at net.minecraft.resources.RegistryDataLoader.loadElementFromResource(RegistryDataLoader.java:203)
+	at net.minecraft.resources.RegistryDataLoader.loadContentsFromManager(RegistryDataLoader.java:227)
+	... 17 more
+
+[07:50:48] [ServerMain/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:304) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:154) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.resources.RegistryDataLoader.load(RegistryDataLoader.java:118) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.WorldLoader.loadLayer(WorldLoader.java:77) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.WorldLoader.loadAndReplaceLayer(WorldLoader.java:86) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:272) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.Util.blockUntilDone(Util.java:892) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.Util.blockUntilDone(Util.java:887) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.Main.main(Main.java:271) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	... 4 more
+
+Wrap log lines
+This log will be saved for 90 days from their last view.
+Report abuse
+© 2017-2025 by mclo.gs - a service by Aternos | Imprint | Privacy
